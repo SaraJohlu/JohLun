@@ -1,0 +1,121 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.webside {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 1000px;
+    background-color: white;
+    border: 20px;
+    border-color: black;
+    box-shadow: 4px 4px 6px rgb(170, 189, 207);
+    border-radius: 10px;
+    border-left: #080808;
+    border-style: inherit;
+}
+
+h1 {
+    background-color: rgb(192, 186, 186);
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 2px;
+}
+
+#stockholm {
+text-align: center;
+float: left;
+background-color: rgb(228, 228, 228);
+width: 258px;
+padding-top: 2px;
+padding-bottom: 2px;
+text-transform: uppercase;
+border-radius: 2px;
+}
+
+#göteborg {
+text-align: center;
+float: right;
+background-color: rgb(235, 235, 235);
+width: 258px;
+padding-top: 2px;
+padding-bottom: 2px;
+text-transform: uppercase;
+border-radius: 2px;
+}
+
+#klasser {
+    text-align: left;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 20px;;
+    font-size: px;
+}
+
+.block {
+    display: inline-block;
+    padding: 2px;
+    margin-left: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#checkbox {
+    text-align:center;
+    text-transform:capitalize;
+    text-decoration: underline;
+    margin-right:270px ;
+    margin-top: 20px;
+
+}
+
+.submit {
+    color: rgb(138, 138, 138);
+    margin-left: 20px;
+    margin-top: ;
+    padding: 6px;
+
+}
+
+#station {
+    float: right;
+    width: 250px;
+    height: 340px;
+    margin-right: 5px;
+    margin-block-start: -500px;
+    border-radius: 5px;
+}
+
+#stationrubrik {
+    float: right;
+    margin-right: 7px;
+    text-align: center;
+    margin-top: -155px;
+    background-color: rgb(236, 237, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#stationp {
+    float: right;
+    text-align: center;
+    margin-top: -85px;
+    margin-right: 45px;
+    font-style: italic;
+    font-size: large;
+}
