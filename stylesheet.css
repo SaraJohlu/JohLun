@@ -233,7 +233,7 @@ li:hover {
         color: #000000;
         background-color: #1146497d;
     }
-
+    /* The main content */
     .container-2 {
         display: flex;
         flex-direction: column;
@@ -280,7 +280,7 @@ li:hover {
         font-size: smaller;
         text-align: center;
     }
-
+/*The scroll list of link*/
     .container-3 {
         display: flex;
         flex-direction: row;
@@ -303,7 +303,7 @@ li:hover {
         margin:2% 3% 0% 5%;
         font-size: small;
     }
-    
+} 
 
 
 
