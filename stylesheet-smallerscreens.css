@@ -1,0 +1,152 @@
+/* This is the layout for the smaller screens */
+@media only screen and (min-width:320px ) and (max-width:450px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+
+    }
+    /* Layout design for the nav */
+    /* The nav container layout */
+    .container-1 {
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        font-family:  "Nunito", sans-serif;
+    }
+
+    /* The navbar logo This is me */
+    .me {
+        display: flex;
+        flex-direction: row;
+        width: 25%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        padding: 0;
+        font-size: 13px;
+        padding: 4%;
+        text-align: center;
+        color: #000000;
+        background-color: #1146497d;
+        
+    }
+    /* The nav bar layout */
+    .ul-1 {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        height: 60px;
+        
+    }
+
+    /* links inside the nav */
+    .links-1{
+        font-size: smaller;
+        width: 25%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 13px;
+        padding-top: 4%;
+        text-align: center;
+        color: #000000;
+        background-color: #1146497d;
+    }
+    
+    .about-me {
+    }
+
+    /* mail contact link */
+    .links-2 {
+        font-size: smaller;
+        width: 25%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 13px;
+        padding-top: 4%;
+        padding-right: 2%;
+        text-align: center;
+        color: #000000;
+        background-color: #1146497d;
+    }
+    /* The main content */
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100% ;
+        height:300px ;
+        padding: 0;
+        margin: 0;
+    }
+
+    img {
+        padding: 0;
+        margin-bottom: 0;
+        margin: 15px 2px 25px 10px;
+        width: 40%;
+        height: auto;
+    }
+
+    h1 {
+        margin-top: -40%;
+        margin-left: 43%;
+        padding: 0;
+        width: 50%;
+        height: 50px;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 0;
+        margin-left: 47%;
+        margin-top: -3%;
+        width: 40%;
+        height: 50px;
+        font-size: small;
+
+    }
+
+    .paragraf {
+        margin: 0;
+        padding: 0;
+        margin-left:42%;
+        margin-top:2%;
+        width: 55%;
+        overflow: auto;
+        font-size: smaller;
+        text-align: center;
+    }
+/*The scroll list of link*/
+    .container-3 {
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height:auto ;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ul-2 {
+         width: 100%;
+         padding: 2%;
+
+        
+    }
+
+    li {
+        width: 90%;
+        padding: 4% 2% 4% 4%;
+        margin:2% 3% 0% 5%;
+        font-size: small;
+    }
+} 
