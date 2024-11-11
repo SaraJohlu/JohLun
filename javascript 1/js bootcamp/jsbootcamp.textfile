@@ -1,0 +1,82 @@
+(JS BOOTCAMP) --->
+
+const = 
+Här är variabeln också dynamisk, den är konstant och går inte att ge ett nytt
+värde. Sätter man ett värde så är den fast. 
+
+let = 
+Den går att ändra på senare i programmet. Variabeln är dynamisk och går 
+alltid att ändra på det.
+
+
+concatenation =
+Om man vill skriva något mer än bara variabeln i consolen. 
+T.ex. console.log("Hej hej, " + name + "!");
+Annars så skriver man bara enklast för att få ut variabelns värde genom
+console.log(name); vilket då visar i console fönstret på webbsidan som 
+det värde variabelns namn fått. 
+
+Introduktion PROGRAMMERING: 
+
+1. Att öppna javascript console i webbläsare, öppna den fil man jobbar med (HTML)
+Tryck F12 eller högerklick -> Inspektera. 
+I horisontella menyraden finns det då att välja console. 
+
+2. Genom att använda <script src=""></script> längst ner i body taggen i HTML
+filen kan man som med css koppåla js filen till html filen. 
+
+Variabel GRUNDER:
+
+1. En variabel är som en box/låda med innehållande värde (data). Variabeln ska 
+namnges och kan då anropas för att då visa innehållande värde (data).
+
+2. let går att ändra på senare i programmet medan const är konstant, lite som att
+värdet i boxen är "skrivet i sten". Var är enligt genomgång förlegat..?
+
+3. A) Den korrekta syntaxen för att ändra ett värde av de tre är 
+let myName='Alice'; .
+
+3 B) korrekta syntaxen för att inte kunna ändra ett värde i en variabel är 
+const myName='Alice'; .
+
+3 C) Det som händer om man försöker ändra värdet i en variabel som är bestämd
+med const är att man får ett error meddelande att värdet age är redan declared. 
+Så variabeln kan alltså bara ha ett värde som är konstant. Man måste då
+ändra värdet i variabeln.
+
+4. 
+Detta svar finns i app.js filen. 
+
+let age = 31; //Min ålder som är kan förändras
+const name = 'Sara' // Mitt namn som är konstant samma
+let isStudent = true; // Jag är just nu student och kan förändras. 
+
+console.log("Hejsan, mitt namn är " + name + "! Jag är " + age + " år gammal")
+console.log("Och svar på frågan ifall jag just nu är student så är svaret: " + isStudent);
+
+Detta visas då som "Hejsan mitt namn är Sara! Jag är 31 år gammal"
+"Och svar på frågan ifall jag just nu är student så är svaret: true"
+
+5. Denna kan nog visas genom den ovan. 
+
+6. 
+let z;
+console.log(z)
+
+ger i consolen undefined. 
+
+8. 
+let city = 'Stockholm'
+ändra namn till Göteborg?? Förstår inte denna fråga. 
+
+DATATYPER:
+
+1. 
+
+
+
+ÖVNINGAR JS GRUND --->
+
+Visuell programmering: 
+
+1. A) Vad är bottom-up problem solving?

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Variabler 
+$primarycolor:rgb(135, 151, 153);
+$secondarycolor: rgb(226, 232, 233);
+$primaryfontfam: "Poppins", sans-serif;
+$secondaryfontfam:"Chicle", serif;
+
+// Mixins 
+@mixin layoutcol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin layoutrow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+body {
+    background-color: rgb(66, 66, 66);
+    font-family: $primaryfontfam;
+    header {
+        @include layoutrow();
+        justify-content: center, space-between;
+        align-items: center;
+        background-color: $primarycolor;
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+        padding: 5px;
+
+        .header1 {
+            font-family: $secondaryfontfam;
+            font-size: x-large;
+            font-weight: 100;
+            padding: 10px 10px 10px 20px;
+        }
+
+        .header2 {
+            text-align: center;
+            font-size: small;
+            padding: 10px 20px 10px 60px;
+        }
+    }
+
+    main {
+        @include layoutcol();
+        justify-content: center;
+        background-color: $primarycolor;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 2px rgb(116, 116, 116);
+        height: auto;
+
+        .mainWelcome {
+        background-image: url(pexels-photo-3708459.jpeg);
+        border-radius: 5px;
+        background-size:100vw;
+        background-repeat: no-repeat;
+        padding: 20px;
+        text-align: center;
+        color: $secondarycolor;
+
+            h3 {
+                font-family: $secondaryfontfam;
+                font-size: xx-large;
+                font-weight: 200;
+            }
+        }
+
+        .div1 { 
+            @include layoutcol();
+            padding: 10px;
+            text-align: center;
+
+            .p1, .p2 {
+                padding-bottom: 7px;
+                font-size: small;
+            }
+        }
+        
+        .div2 {
+            text-align: center;
+            padding-bottom: 10px;
+            font-weight: 500;
+
+            .textbox {
+                width: 50vw;
+                height: 5vh;
+                margin: 2px;
+                border-radius: 5px;
+                border: none;
+                background-color: $secondarycolor;
+                text-align: center;
+                font-size: large;
+                font-weight: 400;
+            }
+
+            .submitBtn {
+                display: none;
+            }
+        }
+
+        .div3 {
+            text-align: center;
+            margin: 40px 10px 20px 10px;
+        }
+    } 
+
+
+    footer {
+        @include layoutrow();
+        background-color: $primarycolor;
+        height: auto;
+        
+        .footercop {
+            text-align: center;
+            font-size: x-small;
+            padding: 5px;
+        }
+
+    }
+}

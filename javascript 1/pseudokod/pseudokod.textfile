@@ -1,0 +1,36 @@
+Pseudokod för 6 olika övningar för programmering, javascript 1 kurs. 
+Övning för att skriva pseudokod inför programmering. 
+
+
+4. Sten, Sax, Påse
+
+set player1 // Bestämmer första spelare
+set player2 // Bestämmer andra spelare
+
+set player1_point = 0 // Bestämmer player1 poäng
+set player2_point = 0 // Bestämmer player2 poäng
+
+Set player1 = Input "Choice" //Man får välja mellan sten sax påse
+Set player2 = Input "Choice" //Man får välja mellan sten sax påse
+
+Function theGame
+    If player1 Choice Sten lika med player2 choice Sax
+        Return Player1_point +1
+        print spelare1 får poäng
+    If player1 choice sax lika med player2 choice sten
+        Return player2_point +1
+        print Spelare 2 får poäng
+
+5. Fizzbuzz
+
+FUNCTION name FizzBuzz
+
+SET Loop 100 nummer
+    IF numret är dividerbart med 3
+    Print Fizz
+    IF numret är dividerbart med 5
+    Print buzz
+    If numret är dividerbart med 3 och 5
+    Print FizzBuzz
+
+
